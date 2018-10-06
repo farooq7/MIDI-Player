@@ -1,0 +1,29 @@
+﻿  Generating moc source test_midiplayer.moc
+  Generating moc source test_midiplayer_automoc.dir/moc_midiplayer_3ALOF3HH6XEO7C.cpp
+  Generating moc compilation test_midiplayer_automoc.cpp
+  Building Custom Rule C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp is up-to-date.
+  test_midiplayer.cpp
+  message_queue.cpp
+  shared_double_buffer.cpp
+  midiplayer.cpp
+  midi.cpp
+  event.cpp
+  track.cpp
+  instrument.cpp
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(31): warning C4244: '=': conversion from 'intmax_t' to 'double', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(55): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(92): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(95): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(99): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(103): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(107): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(111): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(115): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(119): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(123): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp(127): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  test_midiplayer_automoc.cpp
+  Generating Code...
+c:\users\adam\desktop\project3-afarooq7\instrument.cpp(130): warning C4715: 'DefaultInstrument::getFrequency': not all control paths return a value
+  test_midiplayer.vcxproj -> C:\Users\adam\Desktop\project3-afarooq7\build\Debug\test_midiplayer.exe

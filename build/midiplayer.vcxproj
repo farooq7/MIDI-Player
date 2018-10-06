@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{4FF75D56-80F0-3EA9-BB4A-FD5A5A60548D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>midiplayer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\adam\Desktop\project3-afarooq7\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">midiplayer.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">midiplayer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\adam\Desktop\project3-afarooq7\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">midiplayer.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">midiplayer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\adam\Desktop\project3-afarooq7\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">midiplayer.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">midiplayer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\adam\Desktop\project3-afarooq7\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">midiplayer.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">midiplayer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target midiplayer</Message>
+      <Command>setlocal
+cd C:\Users\adam\Desktop\project3-afarooq7\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/midiplayer_automoc.dir/ Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Widgetsd.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Multimediad.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Guid.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Networkd.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/adam/Desktop/project3-afarooq7/build/Debug/midiplayer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/adam/Desktop/project3-afarooq7/build/Debug/midiplayer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target midiplayer</Message>
+      <Command>setlocal
+cd C:\Users\adam\Desktop\project3-afarooq7\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/midiplayer_automoc.dir/ Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Widgets.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Multimedia.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Gui.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Network.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/adam/Desktop/project3-afarooq7/build/Release/midiplayer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/adam/Desktop/project3-afarooq7/build/Release/midiplayer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target midiplayer</Message>
+      <Command>setlocal
+cd C:\Users\adam\Desktop\project3-afarooq7\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/midiplayer_automoc.dir/ MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Widgets.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Multimedia.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Gui.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Network.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/adam/Desktop/project3-afarooq7/build/MinSizeRel/midiplayer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/adam/Desktop/project3-afarooq7/build/MinSizeRel/midiplayer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\adam\Desktop\project3-afarooq7\build;C:\Users\adam\Desktop\project3-afarooq7;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtMultimedia;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target midiplayer</Message>
+      <Command>setlocal
+cd C:\Users\adam\Desktop\project3-afarooq7\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/midiplayer_automoc.dir/ RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Widgets.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Multimedia.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Gui.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Network.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/adam/Desktop/project3-afarooq7/build/RelWithDebInfo/midiplayer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/adam/Desktop/project3-afarooq7/build/RelWithDebInfo/midiplayer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/adam/Desktop/project3-afarooq7 -BC:/Users/adam/Desktop/project3-afarooq7/build --check-stamp-file C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt;C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5MultimediaConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5MultimediaConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_AudioCaptureServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_DSServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_QM3uPlaylistPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWindowsAudioPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_WMFServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Users\adam\Desktop\project3-afarooq7\test_config.hpp.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/adam/Desktop/project3-afarooq7 -BC:/Users/adam/Desktop/project3-afarooq7/build --check-stamp-file C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt;C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5MultimediaConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5MultimediaConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_AudioCaptureServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_DSServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_QM3uPlaylistPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWindowsAudioPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_WMFServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Users\adam\Desktop\project3-afarooq7\test_config.hpp.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/adam/Desktop/project3-afarooq7 -BC:/Users/adam/Desktop/project3-afarooq7/build --check-stamp-file C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt;C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5MultimediaConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5MultimediaConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_AudioCaptureServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_DSServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_QM3uPlaylistPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWindowsAudioPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_WMFServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Users\adam\Desktop\project3-afarooq7\test_config.hpp.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/adam/Desktop/project3-afarooq7 -BC:/Users/adam/Desktop/project3-afarooq7/build --check-stamp-file C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt;C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5MultimediaConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5MultimediaConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_AudioCaptureServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_DSServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_QM3uPlaylistPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWindowsAudioPlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Multimedia\Qt5Multimedia_WMFServicePlugin.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Users\adam\Desktop\project3-afarooq7\test_config.hpp.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\adam\Desktop\project3-afarooq7\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\adam\Desktop\project3-afarooq7\message_queue.hpp" />
+    <ClInclude Include="C:\Users\adam\Desktop\project3-afarooq7\shared_double_buffer.hpp" />
+    <ClInclude Include="C:\Users\adam\Desktop\project3-afarooq7\midiplayer.hpp" />
+    <ClInclude Include="C:\Users\adam\Desktop\project3-afarooq7\midi.hpp" />
+    <ClInclude Include="C:\Users\adam\Desktop\project3-afarooq7\event.hpp" />
+    <ClInclude Include="C:\Users\adam\Desktop\project3-afarooq7\track.hpp" />
+    <ClInclude Include="C:\Users\adam\Desktop\project3-afarooq7\instrument.hpp" />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\main.cpp"  />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\message_queue.cpp"  />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\shared_double_buffer.cpp"  />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\midiplayer.cpp"  />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\midi.cpp"  />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\event.cpp"  />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\track.cpp"  />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\instrument.cpp"  />
+    <ClCompile Include="C:\Users\adam\Desktop\project3-afarooq7\build\midiplayer_automoc.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/adam/Desktop/project3-afarooq7/build/ZERO_CHECK.vcxproj">
+      <Project>57BA0BDF-0759-3882-9F88-FA1A0BF54FF1</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

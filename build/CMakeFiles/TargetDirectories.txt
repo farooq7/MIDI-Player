@@ -1,0 +1,6 @@
+C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/midiplayer.dir
+C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/test_midiplayer.dir
+C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/noise_generator.dir
+C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/adam/Desktop/project3-afarooq7/build/CMakeFiles/ZERO_CHECK.dir

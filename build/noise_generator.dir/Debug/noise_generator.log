@@ -1,0 +1,9 @@
+﻿  Generating moc source noise_generator.moc
+  Generating moc compilation noise_generator_automoc.cpp
+  Building Custom Rule C:/Users/adam/Desktop/project3-afarooq7/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\adam\Desktop\project3-afarooq7\build\CMakeFiles\generate.stamp is up-to-date.
+  noise_generator.cpp
+C:\Users\adam\Desktop\project3-afarooq7\noise_generator.cpp(67): warning C4018: '>': signed/unsigned mismatch
+  noise_generator_automoc.cpp
+  Generating Code...
+  noise_generator.vcxproj -> C:\Users\adam\Desktop\project3-afarooq7\build\Debug\noise_generator.exe
